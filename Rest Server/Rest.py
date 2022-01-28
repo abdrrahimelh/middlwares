@@ -47,6 +47,6 @@ def get_all_framework(day,hour,minute,second):
  
  
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0',port=80,debug=True)
  
  
